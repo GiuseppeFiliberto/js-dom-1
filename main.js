@@ -17,5 +17,12 @@ btnEl.addEventListener('click', function(){
     let turnOn = lampImg.getAttribute('src');
 
     if(turnOn){
-        
-    }})
+        lampImg.setAttribute('src', './assets./assets/img/white_lamp.png');
+        btnEl.innerText('Accendi');
+
+    } else{
+        lampImg.setAttribute('src', './assets./assets/img/yellow_lamp.png');
+        btnEl.innerText('Spegni');
+    }
+}
+)
