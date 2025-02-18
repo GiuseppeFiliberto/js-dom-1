@@ -9,3 +9,13 @@ const lampImg = document.querySelector('.lamp-img');
 // - Seleziono il bottone nel documento HTML
 
 const btnEl = document.querySelector('button');
+
+// - Creo una funzione che al click del bottone accendi la lampadina (cambi l'immagine)
+
+btnEl.addEventListener('click', function(){
+
+    let turnOn = lampImg.getAttribute('src');
+
+    if(turnOn){
+        
+    }})
