@@ -4,4 +4,8 @@ Al click del bottone, la lampadina dovrà accendersi (dovremo quindi utilizzare 
 
 // - Seleziono l'immagine nel documento HTML
 
-const lampImg = document.querySelector('.lamp-img')
+const lampImg = document.querySelector('.lamp-img');
+
+// - Seleziono il bottone nel documento HTML
+
+const btnEl = document.querySelector('button');
